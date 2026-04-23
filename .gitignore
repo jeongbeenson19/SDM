@@ -1,0 +1,68 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / type check / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# PyTorch / training artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+logs/
+checkpoints/
+weights/
+
+# Dataset / large artifacts (adjust as needed)
+data/
+datasets/
+outputs/
+results/
+
+# Cython build artifacts
+*.c
+*.cpp
+
+# Local environment files
+.env
+.env.*
